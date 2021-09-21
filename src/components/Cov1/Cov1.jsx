@@ -1,20 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {motion} from 'framer-motion';
 import circle from '../Cov1/covCircle.svg';
 import clock from '../Cov1/clock.svg';
 
 export default function Box1() {
+
+  const [isAnimating, setIsAnimating] = useState(false)
+
     return (
         <div className="box-container">
           <div className="paper">
-            <div className="animation-container">
+            <div 
+              className="animation-container"
+              // onClick={()=> setIsAnimating(!isAnimating)}
+            >
               <motion.div 
                 className="dot"
                 initial={{
                   x: 80
                 }} 
                 animate={{
-                  x: 140
+                  x: 140, 
+                  backgroundColor: isAnimating ? '#FFED00' : '#000000'
                 }}
                 transition={{
                   repeat: Infinity,
@@ -27,7 +34,7 @@ export default function Box1() {
               <img  className="clock" src={clock} alt="sand clock icon"/>
             </div> 
             <p><b>Just a moment.</b></p> 
-            <p style={{textAlign: 'center'}}>There is a lot data in the back.  <br/>We are loading – this might take a moment. </p>
+            <p style={{textAlign: 'center'}}>There is a lot data in the back. <br/>We are loading – this might take a moment. </p>
           </div> 
         </div>
     )
