@@ -11,15 +11,19 @@ export default function Box1() {
               <motion.div 
                 className="dot"
                 initial={{
-                  x: 80
+                  x: 90,
+                  width: '2rem',
+                  height:'2rem' 
                 }} 
                 animate={{
-                  x: 140
+                  x: 140,
+                  width: '4rem',
+                  height:'2rem' 
                 }}
                 transition={{
                   repeat: Infinity,
-                  duration: 1,
-                  repeatType: "reverse",
+                  duration: 1.1,
+                  repeatType: "mirror",
                 }}
               >
               </motion.div>
