@@ -1,6 +1,6 @@
 This repro contains loader animations realised with React and Framer Motion.
 The main branch is introcucing a minimal card:
-![Alt Text](https://github.com/JudithGlaser/cov-loader/tree/main/public/loader1.gif)
+![Loader1](https://raw.githubusercontent.com/JudithGlaser/cov-loader/main/public/loader1.gif)
 
 
 # Getting Started with Create React App
