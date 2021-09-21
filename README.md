@@ -1,2 +1,3 @@
 Animation implemented on this branch: 
-![Alt Text](https://raw.githubusercontent.com/JudithGlaser/cov-loader/main/public/loader2.gif)
+
+![Alt Text](https://raw.githubusercontent.com/JudithGlaser/cov-loader/loader-2/public/loader2.gif)
