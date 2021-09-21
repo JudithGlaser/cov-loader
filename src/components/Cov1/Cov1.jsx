@@ -24,7 +24,20 @@ export default function Box1() {
               >
               </motion.div>
               <img className="circle" src={circle} alt="covestro circle"/>
-              <img  className="clock" src={clock} alt="sand clock icon"/>
+              <motion.img  
+                className="clock" 
+                src={clock} 
+                alt="sand clock icon"
+                animate={{
+                  rotate: 180
+                }}
+                transition={{
+                  repeat: Infinity,
+                  repeatType: "loop",
+                  repeatDelay: 0.2, 
+                  duration: 1.8,
+                }}
+              />
             </div> 
             <p><b>Just a moment.</b></p> 
             <p style={{textAlign: 'center'}}>There is a lot data in the back.  <br/>We are loading – this might take a moment. </p>
