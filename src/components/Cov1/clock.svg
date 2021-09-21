@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="15px" viewBox="0 0 8 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/search</title>
+    <g id="///-Tab-Loader" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AllNews-B" transform="translate(-715.000000, -257.000000)">
+            <g id="Group-2" transform="translate(544.000000, 235.000000)">
+                <g id="Group" transform="translate(127.000000, 0.000000)">
+                    <g transform="translate(36.000000, 18.000000)">
+                        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        <path d="M16,4 L16,8 C16,9.50704752 15.1665689,10.8194368 13.9354698,11.5014048 C15.105014,12.1466053 15.9156627,13.3632966 15.9938037,14.7754576 L16,15 L16,19 L8,19 L8,15 C8,13.4929525 8.83343107,12.1805632 10.0645302,11.4985952 C8.83343107,10.8194368 8,9.50704752 8,8 L8,4 L16,4 Z M12,12.5 C10.6192881,12.5 9.5,13.6192881 9.5,15 L9.5,16.0374462 L14.5,16.0374462 L14.5,15 C14.5,13.6192881 13.3807119,12.5 12,12.5 Z M14.5,5.5 L9.5,5.5 L9.5,7.5 L14.5,7.5 L14.5,5.5 Z" id="Combined-Shape-Copy" fill="#666666"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
