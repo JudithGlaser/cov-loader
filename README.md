@@ -1,5 +1,6 @@
 This repro contains loader animations realised with React and Framer Motion.
 The main branch is introcucing a minimal card:
+
 ![Loader1](https://raw.githubusercontent.com/JudithGlaser/cov-loader/main/public/loader1.gif)
 
 
