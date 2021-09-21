@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-import circle from '../Cov1/covCircle.png';
+import circle from '../Cov1/covCircle.svg';
 import clock from '../Cov1/clock.svg';
 
 export default function Box1() {
@@ -11,10 +11,15 @@ export default function Box1() {
               <motion.div 
                 className="dot"
                 initial={{
-                  x: 0
+                  x: 80
                 }} 
                 animate={{
-                  x: 144
+                  x: 140
+                }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 1,
+                  repeatType: "reverse",
                 }}
               >
               </motion.div>
